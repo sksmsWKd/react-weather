@@ -32,7 +32,7 @@ const FavoriteCityComponent = (props) => {
     e.preventDefault();
     console.log(city)
     const response = await Axios.get(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=905640c6a12fb0f22325c21e968d6a20`,
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.API_KEY}`,
     );
     updateWeather(response.data);
   };
