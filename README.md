@@ -1,9 +1,6 @@
 start project
 1. npm i
 2. npm start  
-3. .env 
-API_KEY=
-추가
 
 기능 </br>
 도시이름 로마자 입력후 날씨조회가능 </br>
